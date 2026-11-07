@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.nttdata.runners.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 77.25 s <<< FAILURE! -- in com.nttdata.runners.CucumberTestSuite
+Validar funcionalidad del carrito de compras en SauceLabs.Agregar productos al carrito de compras #2 -- Time elapsed: 19.47 s <<< FAILURE!
+java.lang.AssertionError: [ERROR FUNCIONAL] Cantidad incorrecta en el carrito para 'Sauce Labs Bolt T-Shirt'. Se esperaban 1 unidades, pero se encontraron 10.
+	at com.nttdata.screens.SauceLabsShoppingScreen.validarProductoEnCarrito(SauceLabsShoppingScreen.java:116)
+	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoActualizacionDelCarrito(SauceLabsShoppingStepDefs.java:73)
+	at ✽.valido que el carrito de compra actualice correctamente(file:///C:/Users/HP%20SUPPORT/IdeaProjects/QAInnovationLab-automation-mobile-v2/src/test/resources/features/SauceLabs.feature:11)
+
+Validar funcionalidad del carrito de compras en SauceLabs.Agregar productos al carrito de compras #3 -- Time elapsed: 34.55 s <<< FAILURE!
+java.lang.AssertionError: ERROR AL ABRIR EL PRODUCTO: No fue posible acceder al detalle de 'Sauce Labs Bike Light'. La aplicación no respondió como se esperaba. Causa técnica: TimeoutException
+	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(SauceLabsShoppingStepDefs.java:53)
+	at ✽.agrego 2 del siguiente producto "Sauce Labs Bike Light"(file:///C:/Users/HP%20SUPPORT/IdeaProjects/QAInnovationLab-automation-mobile-v2/src/test/resources/features/SauceLabs.feature:10)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by AppiumBy.id: com.saucelabs.mydemoapp.android:id/productTV to contain text "Sauce Labs Bike Light", but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:/Users/HP SUPPORT/IdeaPro..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:/Users/HP SUPPORT/IdeaPro..., appActivity: com.saucelabs.mydemoapp.and..., appPackage: com.saucelabs.mydemoapp.and..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Xiaomi Redmi Note 13 Pro, disableWindowAnimation: true, forceAppLaunch: true, newCommandTimeout: 300, noReset: false, platformName: ANDROID, platformVersion: 16, skipLogcatCapture: true, udid: auvokvydjjswea5l}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Xiaomi, appium:deviceModel: 23117RA68G, appium:deviceName: auvokvydjjswea5l, appium:deviceScreenDensity: 352, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: auvokvydjjswea5l, appium:disableWindowAnimation: true, appium:forceAppLaunch: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: false, appium:pixelRatio: 2.2, appium:platformVersion: 16, appium:skipLogcatCapture: true, appium:statBarHeight: 111, appium:takesScreenshot: true, appium:udid: auvokvydjjswea5l, appium:viewportRect: {height: 2289, left: 0, top: 111, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f00f93a1-0394-4ce1-b3e8-cae47988959e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.nttdata.screens.SauceLabsShoppingScreen.validarDetalleProducto(SauceLabsShoppingScreen.java:58)
+	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(SauceLabsShoppingStepDefs.java:44)
+	... 1 more
+

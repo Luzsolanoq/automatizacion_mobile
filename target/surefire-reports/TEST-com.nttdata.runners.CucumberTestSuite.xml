@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.nttdata.runners.CucumberTestSuite" time="77.254" tests="3" errors="0" skipped="0" failures="2" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\HP SUPPORT\IdeaProjects\QAInnovationLab-automation-mobile-v2\target\test-classes;C:\Users\HP SUPPORT\IdeaProjects\QAInnovationLab-automation-mobile-v2\target\classes;C:\Users\HP SUPPORT\.m2\repository\io\appium\java-client\10.1.1\java-client-10.1.1.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.52.0\selenium-remote-driver-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-api\1.67.0\opentelemetry-api-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-context\1.67.0\opentelemetry-context-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-common\1.67.0\opentelemetry-common-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.67.0\opentelemetry-exporter-logging-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.67.0\opentelemetry-sdk-common-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.67.0\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.67.0\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.67.0\opentelemetry-sdk-trace-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.67.0\opentelemetry-sdk-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.67.0\opentelemetry-sdk-metrics-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.67.0\opentelemetry-sdk-logs-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\net\bytebuddy\byte-buddy\1.18.15\byte-buddy-1.18.15.jar;C:\Users\HP SUPPORT\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-http\4.52.0\selenium-http-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-json\4.52.0\selenium-json-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.52.0\selenium-manager-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-os\4.52.0\selenium-os-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-support\4.52.0\selenium-support-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\HP SUPPORT\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-java\7.34.4\cucumber-java-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-core\7.34.4\cucumber-core-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-gherkin\7.34.4\cucumber-gherkin-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.4\cucumber-gherkin-messages-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\messages-ndjson\0.3.4\messages-ndjson-0.3.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\datatable\7.34.4\datatable-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-plugin\7.34.4\cucumber-plugin-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\docstring\7.34.4\docstring-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-junit\7.34.4\cucumber-junit-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP SUPPORT\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP SUPPORT\AppData\Local\Temp\surefire2406876622170959419\surefirebooter-20261106223510662_3.jar C:\Users\HP SUPPORT\AppData\Local\Temp\surefire2406876622170959419 2026-11-06T22-35-10_398-jvmRun1 surefire-20261106223510662_1tmp surefire_0-20261106223510662_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP SUPPORT\IdeaProjects\QAInnovationLab-automation-mobile-v2\target\test-classes;C:\Users\HP SUPPORT\IdeaProjects\QAInnovationLab-automation-mobile-v2\target\classes;C:\Users\HP SUPPORT\.m2\repository\io\appium\java-client\10.1.1\java-client-10.1.1.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.52.0\selenium-remote-driver-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-api\1.67.0\opentelemetry-api-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-context\1.67.0\opentelemetry-context-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-common\1.67.0\opentelemetry-common-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.67.0\opentelemetry-exporter-logging-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.67.0\opentelemetry-sdk-common-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.67.0\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.67.0\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.67.0\opentelemetry-sdk-trace-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.67.0\opentelemetry-sdk-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.67.0\opentelemetry-sdk-metrics-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.67.0\opentelemetry-sdk-logs-1.67.0.jar;C:\Users\HP SUPPORT\.m2\repository\net\bytebuddy\byte-buddy\1.18.15\byte-buddy-1.18.15.jar;C:\Users\HP SUPPORT\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-http\4.52.0\selenium-http-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-json\4.52.0\selenium-json-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.52.0\selenium-manager-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-os\4.52.0\selenium-os-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-support\4.52.0\selenium-support-4.52.0.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\HP SUPPORT\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-java\7.34.4\cucumber-java-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-core\7.34.4\cucumber-core-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-gherkin\7.34.4\cucumber-gherkin-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.4\cucumber-gherkin-messages-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\messages-ndjson\0.3.4\messages-ndjson-0.3.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\datatable\7.34.4\datatable-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-plugin\7.34.4\cucumber-plugin-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\docstring\7.34.4\docstring-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\HP SUPPORT\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP SUPPORT\.m2\repository\io\cucumber\cucumber-junit\7.34.4\cucumber-junit-7.34.4.jar;C:\Users\HP SUPPORT\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP SUPPORT\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP SUPPORT"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP SUPPORT\IdeaProjects\QAInnovationLab-automation-mobile-v2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP SUPPORT\AppData\Local\Temp\surefire2406876622170959419\surefirebooter-20261106223510662_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.13+9-LTS"/>
+    <property name="user.name" value="HP SUPPORT"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.13+9"/>
+    <property name="localRepository" value="C:\Users\HP SUPPORT\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\HPSUPP~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.13"/>
+    <property name="user.dir" value="C:\Users\HP SUPPORT\IdeaProjects\QAInnovationLab-automation-mobile-v2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\HP SUPPORT\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache\Maven\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\cmdline-tools\latest\bin;C:\Users\HP SUPPORT\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.13+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Agregar productos al carrito de compras #1" classname="Validar funcionalidad del carrito de compras en SauceLabs" time="21.896">
+    <system-out><![CDATA[
+@Test
+Esquema del escenario: Agregar productos al carrito de compras       # src/test/resources/features/SauceLabs.feature:15
+========================================
+[Hooks] Iniciando escenario: Agregar productos al carrito de compras
+========================================
+[AppConfigStepsDefs] Iniciando aplicación SauceLabs
+[AppConfigSteps] Solicitando inicio de aplicacion (saucelabs.properties)
+[AppConfigScreen] Iniciando aplicación: saucelabs.properties
+Iniciando sesion Appium...
+Sesion Appium creada: 5a55520f-7a1a-46af-88e7-962d82b4988d
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Pantalla inicial
+
+        Embedding Pantalla inicial [image/png 50619 bytes]
+
+  ✔ Dado estoy en la aplicación de SauceLabs                         # com.nttdata.stepsdefinitions.AppConfigStepsDefs.estoy_en_la_aplicacion_de_saucelabs()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 866508 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Catálogo de productos validado
+
+        Embedding Catálogo de productos validado [image/png 866508 bytes]
+
+  ✔ Y valido que carguen correctamente los productos en la galería   # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoProductosEnGaleria()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 866508 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Producto seleccionado: Sauce Labs Backpack
+
+        Embedding Producto seleccionado: Sauce Labs Backpack [image/png 866508 bytes]
+
+[ShoppingScreen] Validando detalle del producto: Sauce Labs Backpack
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Detalle del producto: Sauce Labs Backpack
+
+        Embedding Detalle del producto: Sauce Labs Backpack [image/png 404910 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Cantidad seleccionada: 1
+
+        Embedding Cantidad seleccionada: 1 [image/png 404910 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Producto agregado al carrito
+
+        Embedding Producto agregado al carrito [image/png 405474 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Carrito de compras abierto
+
+        Embedding Carrito de compras abierto [image/png 206391 bytes]
+
+  ✔ Cuando agrego 1 del siguiente producto "Sauce Labs Backpack"     # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(int,java.lang.String)
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 206391 bytes]
+
+========== VALIDACIÓN DEL CARRITO ==========
+Producto esperado: Sauce Labs Backpack
+Producto encontrado: Sauce Labs Backpack
+Cantidad esperada: 1
+Cantidad encontrada: 1
+[OK] Producto y cantidad validados correctamente.
+============================================
+  ✔ Entonces valido que el carrito de compra actualice correctamente # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoActualizacionDelCarrito()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 206418 bytes]
+
+[Hooks] Escenario 'Agregar productos al carrito de compras' finalizo: EXITOSO
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Estado final
+
+        Embedding Estado final [image/png 206418 bytes]
+
+[Hooks] Cerrando sesión de Appium...
+[AppConfigSteps] Solicitando cierre de aplicacion (com.saucelabs.mydemoapp.android)
+[AppConfigScreen] Solicitando cierre de aplicación: com.saucelabs.mydemoapp.android
+Cerrando aplicacion: com.saucelabs.mydemoapp.android
+Cerrando sesion Appium...
+Sesion Appium cerrada correctamente.
+]]></system-out>
+  </testcase>
+  <testcase name="Agregar productos al carrito de compras #2" classname="Validar funcionalidad del carrito de compras en SauceLabs" time="19.472">
+    <failure message="[ERROR FUNCIONAL] Cantidad incorrecta en el carrito para &apos;Sauce Labs Bolt T-Shirt&apos;. Se esperaban 1 unidades, pero se encontraron 10." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: [ERROR FUNCIONAL] Cantidad incorrecta en el carrito para 'Sauce Labs Bolt T-Shirt'. Se esperaban 1 unidades, pero se encontraron 10.
+	at com.nttdata.screens.SauceLabsShoppingScreen.validarProductoEnCarrito(SauceLabsShoppingScreen.java:116)
+	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoActualizacionDelCarrito(SauceLabsShoppingStepDefs.java:73)
+	at ✽.valido que el carrito de compra actualice correctamente(file:///C:/Users/HP%20SUPPORT/IdeaProjects/QAInnovationLab-automation-mobile-v2/src/test/resources/features/SauceLabs.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+@Test
+Esquema del escenario: Agregar productos al carrito de compras       # src/test/resources/features/SauceLabs.feature:16
+========================================
+[Hooks] Iniciando escenario: Agregar productos al carrito de compras
+========================================
+[AppConfigStepsDefs] Iniciando aplicación SauceLabs
+[AppConfigSteps] Solicitando inicio de aplicacion (saucelabs.properties)
+[AppConfigScreen] Iniciando aplicación: saucelabs.properties
+Iniciando sesion Appium...
+Sesion Appium creada: 42db539a-7213-4d21-829a-f1d739e98faa
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Pantalla inicial
+
+        Embedding Pantalla inicial [image/png 17385 bytes]
+
+  ✔ Dado estoy en la aplicación de SauceLabs                         # com.nttdata.stepsdefinitions.AppConfigStepsDefs.estoy_en_la_aplicacion_de_saucelabs()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 49908 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Catálogo de productos validado
+
+        Embedding Catálogo de productos validado [image/png 866508 bytes]
+
+  ✔ Y valido que carguen correctamente los productos en la galería   # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoProductosEnGaleria()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 866508 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Producto seleccionado: Sauce Labs Bolt T-Shirt
+
+        Embedding Producto seleccionado: Sauce Labs Bolt T-Shirt [image/png 866508 bytes]
+
+[ShoppingScreen] Validando detalle del producto: Sauce Labs Bolt T-Shirt
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Detalle del producto: Sauce Labs Bolt T-Shirt
+
+        Embedding Detalle del producto: Sauce Labs Bolt T-Shirt [image/png 290106 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Cantidad seleccionada: 1
+
+        Embedding Cantidad seleccionada: 1 [image/png 290106 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Producto agregado al carrito
+
+        Embedding Producto agregado al carrito [image/png 291258 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Carrito de compras abierto
+
+        Embedding Carrito de compras abierto [image/png 169239 bytes]
+
+  ✔ Cuando agrego 1 del siguiente producto "Sauce Labs Bolt T-Shirt" # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(int,java.lang.String)
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 169239 bytes]
+
+========== VALIDACIÓN DEL CARRITO ==========
+Producto esperado: Sauce Labs Bolt T-Shirt
+Producto encontrado: Sauce Labs Bolt T-Shirt
+Cantidad esperada: 1
+Cantidad encontrada: 10
+  ✘ Entonces valido que el carrito de compra actualice correctamente # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoActualizacionDelCarrito()
+        java.lang.AssertionError: [ERROR FUNCIONAL] Cantidad incorrecta en el carrito para 'Sauce Labs Bolt T-Shirt'. Se esperaban 1 unidades, pero se encontraron 10.
+        	at com.nttdata.screens.SauceLabsShoppingScreen.validarProductoEnCarrito(SauceLabsShoppingScreen.java:116)
+        	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoActualizacionDelCarrito(SauceLabsShoppingStepDefs.java:73)
+        	at ✽.valido que el carrito de compra actualice correctamente(file:///C:/Users/HP%20SUPPORT/IdeaProjects/QAInnovationLab-automation-mobile-v2/src/test/resources/features/SauceLabs.feature:11)
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 169239 bytes]
+
+[Hooks] Escenario 'Agregar productos al carrito de compras' finalizo: FALLIDO
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Estado final (FALLO)
+
+        Embedding Estado final (FALLO) [image/png 169164 bytes]
+
+[Hooks] Cerrando sesión de Appium...
+[AppConfigSteps] Solicitando cierre de aplicacion (com.saucelabs.mydemoapp.android)
+[AppConfigScreen] Solicitando cierre de aplicación: com.saucelabs.mydemoapp.android
+Cerrando aplicacion: com.saucelabs.mydemoapp.android
+Cerrando sesion Appium...
+Sesion Appium cerrada correctamente.
+]]></system-out>
+  </testcase>
+  <testcase name="Agregar productos al carrito de compras #3" classname="Validar funcionalidad del carrito de compras en SauceLabs" time="34.546">
+    <failure message="ERROR AL ABRIR EL PRODUCTO: No fue posible acceder al detalle de &apos;Sauce Labs Bike Light&apos;. La aplicación no respondió como se esperaba. Causa técnica: TimeoutException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: ERROR AL ABRIR EL PRODUCTO: No fue posible acceder al detalle de 'Sauce Labs Bike Light'. La aplicación no respondió como se esperaba. Causa técnica: TimeoutException
+	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(SauceLabsShoppingStepDefs.java:53)
+	at ✽.agrego 2 del siguiente producto "Sauce Labs Bike Light"(file:///C:/Users/HP%20SUPPORT/IdeaProjects/QAInnovationLab-automation-mobile-v2/src/test/resources/features/SauceLabs.feature:10)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by AppiumBy.id: com.saucelabs.mydemoapp.android:id/productTV to contain text "Sauce Labs Bike Light", but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:/Users/HP SUPPORT/IdeaPro..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:/Users/HP SUPPORT/IdeaPro..., appActivity: com.saucelabs.mydemoapp.and..., appPackage: com.saucelabs.mydemoapp.and..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Xiaomi Redmi Note 13 Pro, disableWindowAnimation: true, forceAppLaunch: true, newCommandTimeout: 300, noReset: false, platformName: ANDROID, platformVersion: 16, skipLogcatCapture: true, udid: auvokvydjjswea5l}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Xiaomi, appium:deviceModel: 23117RA68G, appium:deviceName: auvokvydjjswea5l, appium:deviceScreenDensity: 352, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: auvokvydjjswea5l, appium:disableWindowAnimation: true, appium:forceAppLaunch: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: false, appium:pixelRatio: 2.2, appium:platformVersion: 16, appium:skipLogcatCapture: true, appium:statBarHeight: 111, appium:takesScreenshot: true, appium:udid: auvokvydjjswea5l, appium:viewportRect: {height: 2289, left: 0, top: 111, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f00f93a1-0394-4ce1-b3e8-cae47988959e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.nttdata.screens.SauceLabsShoppingScreen.validarDetalleProducto(SauceLabsShoppingScreen.java:58)
+	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(SauceLabsShoppingStepDefs.java:44)
+	... 1 more
+]]></failure>
+    <system-out><![CDATA[
+@Test
+Esquema del escenario: Agregar productos al carrito de compras       # src/test/resources/features/SauceLabs.feature:17
+========================================
+[Hooks] Iniciando escenario: Agregar productos al carrito de compras
+========================================
+[AppConfigStepsDefs] Iniciando aplicación SauceLabs
+[AppConfigSteps] Solicitando inicio de aplicacion (saucelabs.properties)
+[AppConfigScreen] Iniciando aplicación: saucelabs.properties
+Iniciando sesion Appium...
+Sesion Appium creada: f00f93a1-0394-4ce1-b3e8-cae47988959e
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Pantalla inicial
+
+        Embedding Pantalla inicial [image/png 50715 bytes]
+
+  ✔ Dado estoy en la aplicación de SauceLabs                         # com.nttdata.stepsdefinitions.AppConfigStepsDefs.estoy_en_la_aplicacion_de_saucelabs()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 49992 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Catálogo de productos validado
+
+        Embedding Catálogo de productos validado [image/png 866601 bytes]
+
+  ✔ Y valido que carguen correctamente los productos en la galería   # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoProductosEnGaleria()
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 866601 bytes]
+
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Producto seleccionado: Sauce Labs Bike Light
+
+        Embedding Producto seleccionado: Sauce Labs Bike Light [image/png 866601 bytes]
+
+[ShoppingScreen] Validando detalle del producto: Sauce Labs Bike Light
+  ✘ Cuando agrego 2 del siguiente producto "Sauce Labs Bike Light"   # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(int,java.lang.String)
+        java.lang.AssertionError: ERROR AL ABRIR EL PRODUCTO: No fue posible acceder al detalle de 'Sauce Labs Bike Light'. La aplicación no respondió como se esperaba. Causa técnica: TimeoutException
+        	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(SauceLabsShoppingStepDefs.java:53)
+        	at ✽.agrego 2 del siguiente producto "Sauce Labs Bike Light"(file:///C:/Users/HP%20SUPPORT/IdeaProjects/QAInnovationLab-automation-mobile-v2/src/test/resources/features/SauceLabs.feature:10)
+        Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by AppiumBy.id: com.saucelabs.mydemoapp.android:id/productTV to contain text "Sauce Labs Bike Light", but... org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters..
+        (tried for 20 seconds with 500 milliseconds interval)
+        Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.13'
+        Driver info: io.appium.java_client.android.AndroidDriver
+        Capabilities {appium:app: C:/Users/HP SUPPORT/IdeaPro..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:/Users/HP SUPPORT/IdeaPro..., appActivity: com.saucelabs.mydemoapp.and..., appPackage: com.saucelabs.mydemoapp.and..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Xiaomi Redmi Note 13 Pro, disableWindowAnimation: true, forceAppLaunch: true, newCommandTimeout: 300, noReset: false, platformName: ANDROID, platformVersion: 16, skipLogcatCapture: true, udid: auvokvydjjswea5l}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Xiaomi, appium:deviceModel: 23117RA68G, appium:deviceName: auvokvydjjswea5l, appium:deviceScreenDensity: 352, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: auvokvydjjswea5l, appium:disableWindowAnimation: true, appium:forceAppLaunch: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: false, appium:pixelRatio: 2.2, appium:platformVersion: 16, appium:skipLogcatCapture: true, appium:statBarHeight: 111, appium:takesScreenshot: true, appium:udid: auvokvydjjswea5l, appium:viewportRect: {height: 2289, left: 0, top: 111, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+        Session ID: f00f93a1-0394-4ce1-b3e8-cae47988959e
+        	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+        	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+        	at com.nttdata.screens.SauceLabsShoppingScreen.validarDetalleProducto(SauceLabsShoppingScreen.java:58)
+        	at com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.agregoProductoAlCarrito(SauceLabsShoppingStepDefs.java:44)
+        	... 1 more
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Agregar productos al carrito de compras - Evidencia del paso
+
+        Embedding Agregar productos al carrito de compras - Evidencia del paso [image/png 578214 bytes]
+
+  ↷ Entonces valido que el carrito de compra actualice correctamente # com.nttdata.stepsdefinitions.SauceLabsShoppingStepDefs.validoActualizacionDelCarrito()
+[Hooks] Escenario 'Agregar productos al carrito de compras' finalizo: FALLIDO
+[AppConfigScreen] Tomando screenshot...
+[ScreenshotAttacher] Adjuntando evidencia: Estado final (FALLO)
+
+        Embedding Estado final (FALLO) [image/png 578007 bytes]
+
+[Hooks] Cerrando sesión de Appium...
+[AppConfigSteps] Solicitando cierre de aplicacion (com.saucelabs.mydemoapp.android)
+[AppConfigScreen] Solicitando cierre de aplicación: com.saucelabs.mydemoapp.android
+Cerrando aplicacion: com.saucelabs.mydemoapp.android
+Cerrando sesion Appium...
+Sesion Appium cerrada correctamente.
+]]></system-out>
+  </testcase>
+</testsuite>
